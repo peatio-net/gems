@@ -7,7 +7,7 @@ PATH
       eventmachine
       faraday_middleware (~> 0.13.1)
       faye (~> 1.2)
-      peatio (>= 2.4.2)
+      peatio (>= 3.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -86,7 +86,7 @@ GEM
     parser (3.2.2.3)
       ast (~> 2.4.1)
       racc
-    peatio (3.1.0)
+    peatio (3.1.1)
       activemodel (> 5.2)
       amqp
       bunny
