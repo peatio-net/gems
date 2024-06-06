@@ -1,0 +1,14 @@
+├── awesome_gem.gemspec
+├── bin
+│   ├── console
+│   └── setup
+├── Gemfile
+├── lib
+│   ├── awesome_gem
+│   │   └── version.rb
+│   └── awesome_gem.rb
+├── Rakefile
+├── README.md
+└── test
+    ├── awesome_gem_test.rb
+    └── test_helper.rb
