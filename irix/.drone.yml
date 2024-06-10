@@ -4,14 +4,14 @@ name: default
 
 steps:
   - name: Run rspec
-    image: ruby:2.6
+    image: ruby: 2.7.8
     commands:
-      - gem install bundler:2.0.2
+      - gem install bundler:2.4.7
       - bundle install --jobs=$(nproc) --retry=3 --path vendor/bundle
       - bundle exec rspec
-  
+
   - name: Release gem
-    image: ruby:2.6
+    image: ruby:2.7.8
     environment:
       GEM_CREDENTIALS:
         from_secret: gem_credentials
